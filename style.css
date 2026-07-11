@@ -89,3 +89,74 @@ ul{
 .job{
     color: #575757;
 }
+.part-4{
+    text-align: center;
+    margin-top: 100px;
+}
+.note{
+    color: #575757;
+}
+.price{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 1px 20px;
+   padding: 5px 150px;
+   text-align: left;
+   
+}
+
+.one{
+    background-color: white;
+    border: 0.5px solid #575757 ;
+    border-radius: 10px;
+    padding: 30px;
+     width: 300px;
+} 
+.price ul{
+    display: inline; 
+}
+.price li{
+    list-style: disc;
+}
+.one button{
+    border: 1px solid #1D4ED8;
+    background-color: white;
+    color:#1D4ED8;
+    margin-top: 30px;
+    border-radius: 12px;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+}
+.two{
+    background-color: #0d1b2aFF;
+    color: white;
+    border-radius: 12px;
+    padding: 40px;
+    width: 300px;
+}
+.two button{
+    border: 1px solid #1D4ED8;
+    background-color: #1D4ED8;
+    color:white;
+    margin-top: 30px;
+    border-radius: 12px;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+}
+.three{
+    background-color:#f8f9fbFF;;
+    width: 300px;
+    border-radius: 12px;
+    padding: 10px 60px;
+}
+.three button{
+    border: 1px solid black;
+    
+    margin-top: 30px;
+    border-radius: 12px;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+}
