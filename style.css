@@ -1,0 +1,23 @@
+*{
+     font-family: "Inter", sans-serif;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    gap: 10px 20px;
+    color: #575757;
+}
+.btn-1{
+    background-color: #1D4ED8;
+    border: 10px;
+    padding: 10px 20px;
+    border-radius: 9px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
